@@ -1,5 +1,6 @@
 const http = require('node:http');
 const { text } = require('./data.js');
+const port = 3000;
 const server = http.createServer((req, res) => {
   console.log('Request recived');
   res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -40,7 +41,7 @@ const server = http.createServer((req, res) => {
   res.end(html);
 });
 
-server.listen(0, () => {
+server.listen(port, () => {
     console.log(`Server is running on port http://localhost:${server.address().port}`);
 });
 
