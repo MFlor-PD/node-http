@@ -22,6 +22,6 @@ Importar el módulo de datos `data.js` en el archivo del servidor para acceder a
 
 Configurar el servidor para responder con un documento HTML. Puedes utilizar el método `res.end()` para escribir dentro tu HTML (con su !DOCTYPE, H1, H2... lo que creas que es necesario)con la datos de `data.js`
 
-5. Iniciar el Servidor:
+5. Iniciar el Servidor: node servidor.js
 
 Ejecutar el servidor y asegurarse de que responde correctamente con un documento HTML que incorpora la información de la página web.
